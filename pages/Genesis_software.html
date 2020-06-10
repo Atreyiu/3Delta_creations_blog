@@ -203,212 +203,311 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
               <center><h3>Visualisation de données</h3></center>
               <br>
               <center>
-                <p>La visualisation des données est une part essentielle de notre projet.
-Nous nous sommes donc penchés sur les différentes possibilités s’offrant à nous. Quatre outils ont paru alors accessible pour cela :
--L’outil open source de monitoring Grafana, l’application Tableau Public et les librairies Python Matplotlib et Plotly.</p>
+              <p>La visualisation des données est une part essentielle de notre projet.
+                Nous nous sommes donc penchés sur les différentes possibilités s’offrant à nous. Quatre outils ont paru alors accessible pour cela :
+              -L’outil open source de monitoring Grafana, l’application Tableau Public et les librairies Python Matplotlib et Plotly.</p>
               </center>
-
               <br>
               <center><h3>Grafana</h3></center>
               <center>
-                <p>
-                  C’est un outil conçu pour générer des Dashboard sur la base de métriques et de données temporelles. Grafana permet de réaliser de la surveillance, de l'analyse et de la visualisation de métriques, livrée avec un serveur web permettant d'y accéder. C’est un logiciel libre sous licence Apache 2.02 qui génère des graphiques et tableaux de bord à partir de bases de données de séries temporelles (Time Séries Data base) telles que Graphite, InfluxDB ou OpenTSDB. Cette plateforme indépendante est aussi un outil indispensable pour créer des alertes.
-Celui-ci expose des tableaux provenant de bases de données en définissant simplement des seuils d’alerte et d’actions associées. Ces Dashboard peuvent reposer sur Lab., Synology ou Zimbra
-                </p>
+              <p>
+                C’est un outil conçu pour générer des Dashboard sur la base de métriques et de données temporelles. Grafana permet de réaliser de la surveillance, de l'analyse et de la visualisation de métriques, livrée avec un serveur web permettant d'y accéder. C’est un logiciel libre sous licence Apache 2.02 qui génère des graphiques et tableaux de bord à partir de bases de données de séries temporelles (Time Séries Data base) telles que Graphite, InfluxDB ou OpenTSDB. Cette plateforme indépendante est aussi un outil indispensable pour créer des alertes.
+                Celui-ci expose des tableaux provenant de bases de données en définissant simplement des seuils d’alerte et d’actions associées. Ces Dashboard peuvent reposer sur Lab., Synology ou Zimbra
+              </p>
               </center>
-
               <center><img style="width: 50%; height:50%" src="../images/image_grafana.png"></center>
               <br>
-               <center><h3>Tableau public</h3></center>
-
+              <center><h3>Tableau public</h3></center>
               <center>
-                <p>Tableau Public est une application PC/MAC permettant d’ouvrir des bases de données sous formats Excel,
-Texte, PDF et JSON et propose une série limitée de type de visualisation variant selon le contenu des bases.
-De plus, il est possible d’intégrer plusieurs tables d’une même base et de lier de différentes manières.
-Sa manipulation reste limitée et ne propose pas la lecture de bases de données SQL.</p>
+              <p>Tableau Public est une application PC/MAC permettant d’ouvrir des bases de données sous formats Excel,
+                Texte, PDF et JSON et propose une série limitée de type de visualisation variant selon le contenu des bases.
+                De plus, il est possible d’intégrer plusieurs tables d’une même base et de lier de différentes manières.
+              Sa manipulation reste limitée et ne propose pas la lecture de bases de données SQL.</p>
               </center>
-               <center><img style="width: 50%; height:50%" src="../images/tableau_public_image.png"></center>
+              <center><img style="width: 50%; height:50%" src="../images/tableau_public_image.png"></center>
               <br>
-                <center><h3>Plotly</h3></center>
+              <center><h3>Plotly</h3></center>
               <br>
-                  <center>
-                <p>
-La librairie Python Plotly permet de créer des graphiques interactifs.
-Il est possible notamment de faire des :
-Line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts.
-Il est également possible de faire des graphiques animés.</p>
+              <center>
+              <p>
+                La librairie Python Plotly permet de créer des graphiques interactifs.
+                Il est possible notamment de faire des :
+                Line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts.
+              Il est également possible de faire des graphiques animés.</p>
               </center>
-                <br>
-                 <center><img style="width: 50%; height:50%" src="../images/plotly_exemple_1_image.png"></center>
               <br>
-                <center><img style="width: 50%; height:50%" src="../images/plotly_exemple_2_image.png"></center>
-                <br>
-                <center><img style="width: 50%; height:50%" src="../images/plotly_exemple_3_image.png"></center>
-                <br>
-                <center><h3>Matplotlib</h3></center>
-                <br>
-                <center>
-                    <p>La librairie Python Matplotlib quant à elle met à disposition un large choix de types de graphiques à portées de main de l’utilisateur afin d’illustrer ces données. Il est tout à fait possible de lier cette librairie à une base de données SQL. Nous pouvons retenir 5 types de graphiques avec Matplotlib :</p>
-                </center>
-                <center>
-                    <p>  Scatter : les nuages de points</p>
-                    <p>Ces graphiques sont les plus simples à créer et à interpréter. Ils sont très utiles pour détecter toute tendance linéaire ou polynomiale entre 2 variables de votre Dataset.</p>
-                </center>
-
-                <center><img style="width: 50%; height:50%" src="../images/nuages_de_points_image.png"></center>
-                    <br>
-                <center>
-                    <p>Graphiques 3D : </p>
-                    <p>Les graphiques 3D sont également incontournables en Data Science et mathématiques. Évidemment, leur but premier est d’étendre les graphiques 2D (comme ceux du dessus) pour visualiser les relations entre 3 variables à la fois.</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/graphique_3D_image.png"></center>
-                <br>
-                <center>
-                    <p>Les histogrammes : </p>
-                    <p>L’histogramme est le graphique idéal pour visualiser la répartition de vos données selon une ou plusieurs variables quantitatives. En statistiques, c’est ce qu’on appelle visualiser une distribution.</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/histogrammes_exemple_image.png"></center>
-                <br>
-                <center>
-                    <p>Contour Plots : </p>
-                    <p>Les contour plots sont des graphiques utiles et simples à interpréter. Ils représentent une vue du dessus des graphiques 3D. Semblables à une carte de relief, où les différents niveaux d’altitude sont représentés par des contours, on les utilise pour visualiser des fonctions mathématiques et trouver à l’œil un minimum ou maximum.</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/contour_plot_exemple.png"></center>
-                <br>
-                <center>
-                    <p>Imshow</p>
-                    <p>Pour finir, les graphiques imshow () de Matplotlib comptent parmi les plus utiles de toute la data science. Il s’agit tout simplement d’afficher une matrice 2D de la même façon que les pixels d’une image 2D.</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/imshow_exemple.png"></center>
-                <br>
-                <hr>
-                <br>
-                <center><h3>NOTRE CHOIX</h3></center>
-                <br>
-                <center><img style="width: 50%; height:50%" src="../images/matplotlib.png"></center>
-                <br>
-                <center>
-                    <p>Une fois que nous avons pris connaissance de toutes ces possibilités, nous avons sélectionné les outils et les types de graphiques qui correspondaient le mieux à nos attentes.
-En effet, nous avons choisi Matplotlib, la librairie python qui comme vu précédemment, apporte un large choix de graphique.
-De plus nous utilisons pour alimenter la base de données et les stocker, un fichier CSV. Nous avons remarqué que Matplotlib était une des plus simple et compatible des librairies pour notre situation.</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/solution_image.png"></center>
-                <br>
-                <hr>
-                <br>
-                <center><h3>PROJET FIL ROUGE</h3></center>
-                <br>
-                <center><img style="width: 50%; height:50%" src="../images/projet_fil_rouge_image.png"></center>
-                <br>
-                <center>
-                    <p>Cette partie vous montrera plus en détail ce que nous avons fait, comment c’est dérouler le projet et tous les résultats obtenus durant sa conception.
-Afin d’aboutir à un tel projet il faut réunir tous les points les plus importants afin d’avoir aucun souci dans le résultat final.
--l’organisation de projet et de groupe, nous verrons les méthodes utilisées afin de limiter le désordre.
--réunir les compétences des 4 apprenants.
--savoir utiliser et analyser Google, et les cours récoltés tout au long des 7 mois de formation.
--savoir rebondir sur un problème rencontré (SWOT).</p>
-                </center>
-                <br>
-                <center>
-                    <p>REPARTITION DES TACHES :</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/github.png"></center>
-                <br>
-                <center>
-                    <p>Pour une bonne organisation de projet en groupe toutes les données et le matériel doivent pouvoir être disponible en temps réel c’est pourquoi nous avons opté pour GitHub.
-GitHub qu’est-ce que c’est ?
-GitHub est un service web d'hébergement et de gestion de développement de logiciels, utilisant le programme Git, il permet donc de stocker en temps réel n’importe quel dossier, projet, ou autre.
-Mais GitHub est encore bien plus intéressant car en effet on peut aussi relier ce qu’on appelle des branches, et qui fera en sorte que dès qu’une personne envoie le travail, les autres reçoivent tout aussi en même temps !</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/genial_image.png"></center>
-                <br>
-                <center><p>C’est donc comme cela que nous avons défini et suivi le travail de chacun et que tous les jours nous avions les mêmes avancées et n’avons jamais eu un membre du groupe avec un retard et avons pu progresser rapidement.</p></center>
-                <center><img style="width: 50%; height:50%" src="../images/ppl_puzzle_image.png"></center>
-                <br>
-                <center><p>Cet outil nous a été présenté durant tout le long de la formation et nous avons donc pas eu de mal avec celui-ci.</p></center>
-                <center><img style="width: 50%; height:50%" src="../images/trello_image.png"></center>
-                <center>
-                    <p>Cependant nous avons été formés sur un autre outil « Trello »
-Qui est un outil d’organisation et qui permet de visualiser l’avancée du projet et de contrôler les dates limites afin de ne pas prendre de retard.
-Nous avons fait abstraction de cet outil car nous n’avons pas jugé utile dans le cadre de ce projet et la façon dont nous avons travaillé.</p>
-                </center>
-                <br>
-                <center>
-                    <p>Acheminements : </p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/hackathon.png"></center>
-                <br>
-                <center><p>
-Pour la réalisation de ce projet nous avons opté pour un travail en condition de hackathon qui consiste à travailler beaucoup sur une courte durée et avec le moins de pause possible.
-C’est une course contre la montre en quelque sorte.
-Nous avons donc réuni nos compétences et notre motivation pour un projet ambitieux produit en 10 jours.
-Pour cela nous avons opté pour l’utilisation de GitHub pour le maintien de l’organisation et partir sur une méthode de travail agile. Afin de nous coordonner, d’optimiser la charge et la production de travail de chacun.
-Nous faisions des récaps et des mises a jours chaque soir.</p></center>
-                <center><p>L’idée de départ était de créer une application qui cherchée les statistiques d’une base de données existante (crime en France).
-Cependant, nous nous sommes vite rendu compte que cette base de données était bien trop mal organisée et qu’il nous était impossible dans les temps de terminer ce projet.
-C’est pour cela que nous avons repris From scratch et avons eu l’idée qui est aujourd’hui le résultat final de notre travail.
-L’idée était de créer donc une application qui serrait un rapport de statistique pour joueur confirmé.
-En effet, comme dit précédemment nous avons remarqué qu’il y avait beaucoup trop d’informations dans le jeu pour tout analyser.
-La récolte de ces informations permettra donc la progression de l’utilisateur.
-Cette idée a rapidement été un succès et les idées de développements se sont enchainées les unes après les autres, ce qui nous a permis de vite avancer.
-Par chance, nous n’avons pas eu de blocages persistant pour nous forcer à changer d’idée ce qui a permis de suivre les délais du défi correctement. Mais en raison évidente du manque de temps la version qui vous est proposée reste un prototype du projet. Cependant, toutes les idées sont présente dans la version Alpha. Il ne manquera qu’un nettoyage du code, revoir le design de l’application et améliorer les performances de lecture des données (Dataviz).</p></center>
-
-                <center><h3>Structuration et conception</h3></center>
-
-                <center><img style="width: 50%; height:50%" src="../images/notice_image.png"></center>
-                <center><p>Voici maintenant la partie la plus intéressante à visionner, La structuration et la conception brute du projet.
-Cette partie va réunir absolument toute les techniques, outils, logiciels, code, Dataviz et bien encore, c’est le cœur même du projet.
-Cette partie servira non seulement à savoir les étapes et les outils utiliser, mais aussi à comprendre le fonctionnement de l’application.</p></center>
-                <br>
-                <center>
-                    <p>Les Bases de données</p>
-
-                    <p>Voici maintenant la partie la plus intéressante à visionner, La structuration et la conception brute du projet.
-Cette partie va réunir absolument toute les techniques, outils, logiciels, code, Dataviz et bien encore, c’est le cœur même du projet.
-Cette partie servira non seulement à savoir les étapes et les outils utiliser, mais aussi à comprendre le fonctionnement de l’application.</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/MCD_exemple.png"></center>
-             <br>
-                <center>
-                    <p>
-Nous avons donc deux tables, l’une correspond aux entrées que l’utilisateur effectue pour enregistrer son profil, l’autre aux données d’une partie.</p>
-                </center>
-                <center>
-                    <p>Pré-traitement de la donnée :</p>
-                    <p>Une fois le MCD terminé nous avons une vision globale de notre base de données. Cependant, il nous rest à faire un pré-traitement de la donnée : nous devons donc alors assigner à chaque colonne un Data-type qui lui correspond. Ex : Début_de_game (TIME (6)), Pseudo (VARCHAR (30))
-Il ne nous reste plus qu’à créer la base de données dans Workbench et de lui attribuer une table et des colonnes.
-Pour cela nous utilisons la Query SQL « CREATE DATABASE Performances_LoL » Nous créons la table et les colonnes grâce au code suivant :</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/exemple_SQL_1.png"></center>
-                <br>
-                <center>
-                    <p>Liaison entre Python et SQL :</p>
-                    <p>Un problème majeur se pose : comment lier les langages Python et SQL ? En effet, nous voulons alimenter une base de données SQL dans le logiciel Workbench à partir d’une application codée en Python. Est-ce possible ? Oui, grâce à une librairie nommée « MySQL-connector-python »</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/connexion_workbench.png"></center>
-                <br>
-                <center>
-                    <p>Nous importons alors cette librairie qui nous permet de nous connecter directement à notre base SQL à l’aide de nos identifiants et password de Workbench.
-Ainsi, nous pouvons effectuer des Query SQL dans python tel que « SELECT » « INSERT » ou encore « CREATE TABLE »</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/insert_table.png"></center>
-                <br>
-                <center>
-                    <p>Cette Query nous permet de créer les colonnes dans Workbench.</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/query_workbench.png"></center>
-                <br>
-                <center>
-                    <p>Input Base de données SQL :</p>
-                    <p>Nous avons ensuite besoin de coder une fonction permettant de rentrer les données par un Input dans l’application afin de les stocker dans MYSQL Workbench.</p>
-                </center>
-                <center><img style="width: 50%; height:50%" src="../images/user_input.png"></center>
-             <br>
-                <center><p>
-Une fois la possibilité de faire des inputs réglés, nous devons lier cette fonction avec la base de données SQL pour que celle-ci puisse se remplir à chaque entrée.</p></center>
-
-                <center><img style="width: 50%; height:50%" src="../images/variable_input.png"></center>
-
+              <center><img style="width: 50%; height:50%" src="../images/plotly_exemple_1_image.png"></center>
+              <br>
+              <center><img style="width: 50%; height:50%" src="../images/plotly_exemple_2_image.png"></center>
+              <br>
+              <center><img style="width: 50%; height:50%" src="../images/plotly_exemple_3_image.png"></center>
+              <br>
+              <center><h3>Matplotlib</h3></center>
+              <br>
+              <center>
+              <p>La librairie Python Matplotlib quant à elle met à disposition un large choix de types de graphiques à portées de main de l’utilisateur afin d’illustrer ces données. Il est tout à fait possible de lier cette librairie à une base de données SQL. Nous pouvons retenir 5 types de graphiques avec Matplotlib :</p>
+              </center>
+              <center>
+              <p>  Scatter : les nuages de points</p>
+              <p>Ces graphiques sont les plus simples à créer et à interpréter. Ils sont très utiles pour détecter toute tendance linéaire ou polynomiale entre 2 variables de votre Dataset.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/nuages_de_points_image.png"></center>
+              <br>
+              <center>
+              <p>Graphiques 3D : </p>
+              <p>Les graphiques 3D sont également incontournables en Data Science et mathématiques. Évidemment, leur but premier est d’étendre les graphiques 2D (comme ceux du dessus) pour visualiser les relations entre 3 variables à la fois.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/graphique_3D_image.png"></center>
+              <br>
+              <center>
+              <p>Les histogrammes : </p>
+              <p>L’histogramme est le graphique idéal pour visualiser la répartition de vos données selon une ou plusieurs variables quantitatives. En statistiques, c’est ce qu’on appelle visualiser une distribution.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/histogrammes_exemple_image.png"></center>
+              <br>
+              <center>
+              <p>Contour Plots : </p>
+              <p>Les contour plots sont des graphiques utiles et simples à interpréter. Ils représentent une vue du dessus des graphiques 3D. Semblables à une carte de relief, où les différents niveaux d’altitude sont représentés par des contours, on les utilise pour visualiser des fonctions mathématiques et trouver à l’œil un minimum ou maximum.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/contour_plot_exemple.png"></center>
+              <br>
+              <center>
+              <p>Imshow</p>
+              <p>Pour finir, les graphiques imshow () de Matplotlib comptent parmi les plus utiles de toute la data science. Il s’agit tout simplement d’afficher une matrice 2D de la même façon que les pixels d’une image 2D.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/imshow_exemple.png"></center>
+              <br>
+              <hr>
+              <br>
+              <center><h3>NOTRE CHOIX</h3></center>
+              <br>
+              <center><img style="width: 50%; height:50%" src="../images/matplotlib.png"></center>
+              <br>
+              <center>
+              <p>Une fois que nous avons pris connaissance de toutes ces possibilités, nous avons sélectionné les outils et les types de graphiques qui correspondaient le mieux à nos attentes.
+                En effet, nous avons choisi Matplotlib, la librairie python qui comme vu précédemment, apporte un large choix de graphique.
+              De plus nous utilisons pour alimenter la base de données et les stocker, un fichier CSV. Nous avons remarqué que Matplotlib était une des plus simple et compatible des librairies pour notre situation.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/solution_image.png"></center>
+              <br>
+              <hr>
+              <br>
+              <center><h3>PROJET FIL ROUGE</h3></center>
+              <br>
+              <center><img style="width: 50%; height:50%" src="../images/projet_fil_rouge_image.png"></center>
+              <br>
+              <center>
+              <p>Cette partie vous montrera plus en détail ce que nous avons fait, comment c’est dérouler le projet et tous les résultats obtenus durant sa conception.
+                Afin d’aboutir à un tel projet il faut réunir tous les points les plus importants afin d’avoir aucun souci dans le résultat final.
+                -l’organisation de projet et de groupe, nous verrons les méthodes utilisées afin de limiter le désordre.
+                -réunir les compétences des 4 apprenants.
+                -savoir utiliser et analyser Google, et les cours récoltés tout au long des 7 mois de formation.
+              -savoir rebondir sur un problème rencontré (SWOT).</p>
+              </center>
+              <br>
+              <center>
+              <p>REPARTITION DES TACHES :</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/github.png"></center>
+              <br>
+              <center>
+              <p>Pour une bonne organisation de projet en groupe toutes les données et le matériel doivent pouvoir être disponible en temps réel c’est pourquoi nous avons opté pour GitHub.
+                GitHub qu’est-ce que c’est ?
+                GitHub est un service web d'hébergement et de gestion de développement de logiciels, utilisant le programme Git, il permet donc de stocker en temps réel n’importe quel dossier, projet, ou autre.
+              Mais GitHub est encore bien plus intéressant car en effet on peut aussi relier ce qu’on appelle des branches, et qui fera en sorte que dès qu’une personne envoie le travail, les autres reçoivent tout aussi en même temps !</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/genial_image.png"></center>
+              <br>
+              <center><p>C’est donc comme cela que nous avons défini et suivi le travail de chacun et que tous les jours nous avions les mêmes avancées et n’avons jamais eu un membre du groupe avec un retard et avons pu progresser rapidement.</p></center>
+              <center><img style="width: 50%; height:50%" src="../images/ppl_puzzle_image.png"></center>
+              <br>
+              <center><p>Cet outil nous a été présenté durant tout le long de la formation et nous avons donc pas eu de mal avec celui-ci.</p></center>
+              <center><img style="width: 50%; height:50%" src="../images/trello_image.png"></center>
+              <center>
+              <p>Cependant nous avons été formés sur un autre outil « Trello »
+                Qui est un outil d’organisation et qui permet de visualiser l’avancée du projet et de contrôler les dates limites afin de ne pas prendre de retard.
+              Nous avons fait abstraction de cet outil car nous n’avons pas jugé utile dans le cadre de ce projet et la façon dont nous avons travaillé.</p>
+              </center>
+              <br>
+              <center>
+              <p>Acheminements : </p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/hackathon.png"></center>
+              <br>
+              <center><p>
+                Pour la réalisation de ce projet nous avons opté pour un travail en condition de hackathon qui consiste à travailler beaucoup sur une courte durée et avec le moins de pause possible.
+                C’est une course contre la montre en quelque sorte.
+                Nous avons donc réuni nos compétences et notre motivation pour un projet ambitieux produit en 10 jours.
+                Pour cela nous avons opté pour l’utilisation de GitHub pour le maintien de l’organisation et partir sur une méthode de travail agile. Afin de nous coordonner, d’optimiser la charge et la production de travail de chacun.
+              Nous faisions des récaps et des mises a jours chaque soir.</p></center>
+              <center><p>L’idée de départ était de créer une application qui cherchée les statistiques d’une base de données existante (crime en France).
+                Cependant, nous nous sommes vite rendu compte que cette base de données était bien trop mal organisée et qu’il nous était impossible dans les temps de terminer ce projet.
+                C’est pour cela que nous avons repris From scratch et avons eu l’idée qui est aujourd’hui le résultat final de notre travail.
+                L’idée était de créer donc une application qui serrait un rapport de statistique pour joueur confirmé.
+                En effet, comme dit précédemment nous avons remarqué qu’il y avait beaucoup trop d’informations dans le jeu pour tout analyser.
+                La récolte de ces informations permettra donc la progression de l’utilisateur.
+                Cette idée a rapidement été un succès et les idées de développements se sont enchainées les unes après les autres, ce qui nous a permis de vite avancer.
+              Par chance, nous n’avons pas eu de blocages persistant pour nous forcer à changer d’idée ce qui a permis de suivre les délais du défi correctement. Mais en raison évidente du manque de temps la version qui vous est proposée reste un prototype du projet. Cependant, toutes les idées sont présente dans la version Alpha. Il ne manquera qu’un nettoyage du code, revoir le design de l’application et améliorer les performances de lecture des données (Dataviz).</p></center>
+              <center><h3>Structuration et conception</h3></center>
+              <center><img style="width: 50%; height:50%" src="../images/notice_image.png"></center>
+              <center><p>Voici maintenant la partie la plus intéressante à visionner, La structuration et la conception brute du projet.
+                Cette partie va réunir absolument toute les techniques, outils, logiciels, code, Dataviz et bien encore, c’est le cœur même du projet.
+              Cette partie servira non seulement à savoir les étapes et les outils utiliser, mais aussi à comprendre le fonctionnement de l’application.</p></center>
+              <br>
+              <center>
+              <p>Les Bases de données</p>
+              <p>Voici maintenant la partie la plus intéressante à visionner, La structuration et la conception brute du projet.
+                Cette partie va réunir absolument toute les techniques, outils, logiciels, code, Dataviz et bien encore, c’est le cœur même du projet.
+              Cette partie servira non seulement à savoir les étapes et les outils utiliser, mais aussi à comprendre le fonctionnement de l’application.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/MCD_exemple.png"></center>
+              <br>
+              <center>
+              <p>
+              Nous avons donc deux tables, l’une correspond aux entrées que l’utilisateur effectue pour enregistrer son profil, l’autre aux données d’une partie.</p>
+              </center>
+              <center>
+              <p>Pré-traitement de la donnée :</p>
+              <p>Une fois le MCD terminé nous avons une vision globale de notre base de données. Cependant, il nous rest à faire un pré-traitement de la donnée : nous devons donc alors assigner à chaque colonne un Data-type qui lui correspond. Ex : Début_de_game (TIME (6)), Pseudo (VARCHAR (30))
+                Il ne nous reste plus qu’à créer la base de données dans Workbench et de lui attribuer une table et des colonnes.
+              Pour cela nous utilisons la Query SQL « CREATE DATABASE Performances_LoL » Nous créons la table et les colonnes grâce au code suivant :</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/exemple_SQL_1.png"></center>
+              <br>
+              <center>
+              <p>Liaison entre Python et SQL :</p>
+              <p>Un problème majeur se pose : comment lier les langages Python et SQL ? En effet, nous voulons alimenter une base de données SQL dans le logiciel Workbench à partir d’une application codée en Python. Est-ce possible ? Oui, grâce à une librairie nommée « MySQL-connector-python »</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/connexion_workbench.png"></center>
+              <br>
+              <center>
+              <p>Nous importons alors cette librairie qui nous permet de nous connecter directement à notre base SQL à l’aide de nos identifiants et password de Workbench.
+              Ainsi, nous pouvons effectuer des Query SQL dans python tel que « SELECT » « INSERT » ou encore « CREATE TABLE »</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/insert_table.png"></center>
+              <br>
+              <center>
+              <p>Cette Query nous permet de créer les colonnes dans Workbench.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/query_workbench.png"></center>
+              <br>
+              <center>
+              <p>Input Base de données SQL :</p>
+              <p>Nous avons ensuite besoin de coder une fonction permettant de rentrer les données par un Input dans l’application afin de les stocker dans MYSQL Workbench.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/user_input.png"></center>
+              <br>
+              <center><p>
+              Une fois la possibilité de faire des inputs réglés, nous devons lier cette fonction avec la base de données SQL pour que celle-ci puisse se remplir à chaque entrée.</p></center>
+              <center><img style="width: 50%; height:50%" src="../images/variable_input.png"></center>
+              <center>
+              <p>La base de données CSV :</p>
+              <p>
+                Nous avons dupliqué la base SQL dans un fichier CSV. Ce fichier agit comme une base de données à part entière. En effet, il est lui-même lié aux inputs de l’application. Ainsi, lorsque nous insérons de nouvelles données elles sont stockées à la fois sur Workbench et sur le fichier CSV.
+              Pourquoi ? Pour la suite du développement de l’application, nous avons prévu de visualiser les données grâce à Matplotlib. Or, il est très simple à l’aide de la librairie Pandas de créer des graphiques à partir d’un document CSV. C’est pourquoi nous avons décidé de créer cette base supplémentaire.</p>
+              </center>
+              <center><p>Code liaison input de l’application et fichier CSV :</p></center>
+              <center><img style="width: 50%; height:50%" src="../images/input_csv.png"></center>
+              <br>
+              <center><p>Fichier CSV : </p></center>
+              <center><img style="width: 50%; height:50%" src="../images/fichier_csv.png"></center>
+              <br>
+              <center>
+              <p>APPARANCE DE L'APPLICATION : </p>
+              <p>L’arborescence : </p>
+              <p>Avant de commencer la conception d’une application, il ne faut pas oublier une étape cruciale. Comme le MCD l’est pour une base de données, l’arborescence est indissociable de la conception d’une application. Elle permet d’en visualiser toutes les pages et tous les boutons de manière clair.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/arborescence.png"></center>
+              <center>
+              <br>
+              <p>L’ouverture d’une fenêtre :</p>
+              <p>Une fois le plan de l’application mis au point il ne nous reste plus qu’à coder. Qui dit application dit fenêtre qui s’ouvre et qui offre une visualisation autre que des lignes de codes pour le consommateur. Il faut alors faire un choix sur la librairie Python à utiliser ce qui déterminera le reste du code de notre appli. Durant notre formation nous avons vue deux librairies le permettant : Tkinter et Pygame.
+              Laquelle choisir ? Pour les départager il faut alors analyser les points forts et les points faibles de chacun.</p>
+              </center>
+              <center>
+              <p>Les points forts de Tkinter : </p>
+              <li>C'est bien pour l'apprentissage</li>
+              <li>C'est directement intégré à Python</li>
+              </center>
+              <center>
+              <p>Les points faibles : </p>
+              <li>C'est moche.</li>
+              </center>
+              <center>
+              <p>Les points forts de Pygame : </p>
+              <li>Tu positionne où tu veux.</li>
+              <li>Les événement clavier et souris sont faciles à mettre en place.</li>
+              <li>Pas de besoin de faire un canvas pour afficher une image...</li>
+              </center>
+              <br>
+              <center>
+              <p>Les points faibles de Pygame : </p>
+              <p>T'es obligée de faire tes widgets (Button, slider...)</p>
+              </center>
+              <center>
+              <p>Suite à l’analyse de ces différents points nous avons décidé que Pygame était plus adaptée à notre projet.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/pygame_window.png"></center>
+              <br>
+              <center>
+              <p>CHOISIR UNE ICONE</p>
+              <p>À quoi reconnait-on une application ? Quel est la première image si je vous dis Spotify ou Google Chrome ? Le logo. En effet, c’est une part intéressante dans la conceptualisation de notre application et pourtant très simple.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/icone_script.png"></center>
+              <br>
+              <center>
+              <p>La conception du Menu :</p>
+              <p>Pour qu’une notre application soit fonctionnelle et peut accéder aux différentes parties de l’arborescence il faut mettre au point un menu. Cependant, étant dans un Hackathon nous n’avions pas le temps de le composer from scratch, nous avons donc utilisé un squelette créé par Pablo Pizarro R. @ppizarror. Nous l’avons ensuite modifié et adapté selon notre volonté. Ce menu est essentiellement fait à l’aide de widget propre à Pygame, notamment pour la structure du code des boutons :</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/widget_button.png"></center>
+              <br>
+              <center>
+              <p>Les boutons : </p>
+              <p>Nous avons ajouté de nombreux boutons cliquables dont certains qui peuvent nous renvoyer sur des liens web. En effet, nous pouvons par exemple renvoyer l’utilisateur sur un site l’aidant à choisir des items propres à chaque personnage avant une partie. Nous fournissons alors de manière indirect toutes les informations pouvant permettre au joueur d’augmenter ses capacités.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/exemple_button.png"></center>
+              <center>
+              <p>D’autres boutons, plus simples, nous permettent d’accéder à une nouvelle page.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/exemple_button_2.png"></center>
+              <center>
+              <p>Une application sonore et visuelle :</p>
+              <p>
+                Nous avons décidé d’ajouter une touche sonore à notre application. En effet, une voix vous accueil à son ouverture et vous avez la possibilité de faire lire le synopsis de chaque personnage pour une utilisation plus immersive de l’application.
+                De plus, cette fonctionnalité pourra être utilisé dans une version Beta complètement adapter pour un usage par des personnes mal-voyantes.
+              </p>
+              <p>Son à l’ouverture de l’application :</p>
+              <center><img style="width: 50%; height:50%" src="../images/exemple_script_sound.png"></center>
+              </center>
+              <center><p>Lecture des Synopsis : </p></center>
+              <center><img style="width: 50%; height:50%" src="../images/exemple_button_2.png"></center>
+              <center>
+              <p>Nous avons également un aspect visuel : lorsque nous choisissons un champion nous pouvons apercevoir son image correspondante afin de magnifier l’application.</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/define_image_script.png"></center>
+              <center>
+              <p> LA VISUALISATION DES DONNéES : </p>
+              <p>La DATA Visualisation ?</p>
+              <p>
+              Une visualisation de données permet avant tout de mettre une image sur une série de chiffre interminable et illisible pour le commun des mortels. On peut isoler une donnée et visualiser où on peut alors la comparer à d’autres.</p>
+              <p>Dans notre, cas il y aura 4 graphiques :</p>
+              <p>
+              -1/ Un graphique qui nous montre le total de kill et d’assistances réaliser avec un Champion de League of legend</p>
+              <p>-2/ Un graphique qui nous compare le total de kill entre différents Champion</p>
+              <p>-3/ Un graphique nous exposant toutes les victoires et défaites par tous les Champion</p>
+              <p>-4/ Un graphique nous montrant kill et assistance du Champion par rapport au temps
+              </p>
+              <p>Nous avons pour cela réalisé deux types de graphiques : en barre et en ligne.</p>
+              </center>
+              <center>
+              <p>Graphiques en barre :</p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/graphique_barre.png"></center>
+              <center>
+              <p>Graphique en lignes : </p>
+              </center>
+              <center><img style="width: 50%; height:50%" src="../images/graphique_ligne.png"></center>
+              <br>
               <hr>
               <br>
               <center><h2>Conclusion</h2></center>
