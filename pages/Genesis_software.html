@@ -199,7 +199,102 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
                 Les ressources utiliser sont les cours, la documentation google, coup 0 euro.
               </p>
               </center>
+              <br>
+              <center><h3>Visualisation de données</h3></center>
+              <br>
+              <center>
+                <p>La visualisation des données est une part essentielle de notre projet.
+Nous nous sommes donc penchés sur les différentes possibilités s’offrant à nous. Quatre outils ont paru alors accessible pour cela :
+-L’outil open source de monitoring Grafana, l’application Tableau Public et les librairies Python Matplotlib et Plotly.</p>
+              </center>
+
+              <br>
+              <center><h3>Grafana</h3></center>
+              <center>
+                <p>
+                  C’est un outil conçu pour générer des Dashboard sur la base de métriques et de données temporelles. Grafana permet de réaliser de la surveillance, de l'analyse et de la visualisation de métriques, livrée avec un serveur web permettant d'y accéder. C’est un logiciel libre sous licence Apache 2.02 qui génère des graphiques et tableaux de bord à partir de bases de données de séries temporelles (Time Séries Data base) telles que Graphite, InfluxDB ou OpenTSDB. Cette plateforme indépendante est aussi un outil indispensable pour créer des alertes.
+Celui-ci expose des tableaux provenant de bases de données en définissant simplement des seuils d’alerte et d’actions associées. Ces Dashboard peuvent reposer sur Lab., Synology ou Zimbra
+                </p>
+              </center>
+
+              <center><img style="width: 50%; height:50%" src="../images/image_grafana.png"></center>
+              <br>
+               <center><h3>Tableau public</h3></center>
+
+              <center>
+                <p>Tableau Public est une application PC/MAC permettant d’ouvrir des bases de données sous formats Excel,
+Texte, PDF et JSON et propose une série limitée de type de visualisation variant selon le contenu des bases.
+De plus, il est possible d’intégrer plusieurs tables d’une même base et de lier de différentes manières.
+Sa manipulation reste limitée et ne propose pas la lecture de bases de données SQL.</p>
+              </center>
+               <center><img style="width: 50%; height:50%" src="../images/tableau_public_image.png"></center>
+              <br>
+                <center><h3>Plotly</h3></center>
+              <br>
+                  <center>
+                <p>
+La librairie Python Plotly permet de créer des graphiques interactifs.
+Il est possible notamment de faire des :
+Line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts.
+Il est également possible de faire des graphiques animés.</p>
+              </center>
+                <br>
+                 <center><img style="width: 50%; height:50%" src="../images/plotly_exemple_1_image.png"></center>
+              <br>
+                <center><img style="width: 50%; height:50%" src="../images/plotly_exemple_2_image.png"></center>
+                <br>
+                <center><img style="width: 50%; height:50%" src="../images/plotly_exemple_3_image.png"></center>
+                <br>
+                <center><h3>Matplotlib</h3></center>
+                <br>
+                <center>
+                    <p>La librairie Python Matplotlib quant à elle met à disposition un large choix de types de graphiques à portées de main de l’utilisateur afin d’illustrer ces données. Il est tout à fait possible de lier cette librairie à une base de données SQL. Nous pouvons retenir 5 types de graphiques avec Matplotlib :</p>
+                </center>
+                <center>
+                    <p>  Scatter : les nuages de points</p>
+                    <p>Ces graphiques sont les plus simples à créer et à interpréter. Ils sont très utiles pour détecter toute tendance linéaire ou polynomiale entre 2 variables de votre Dataset.</p>
+                </center>
+
+                <center><img style="width: 50%; height:50%" src="../images/nuages_de_points_image.png"></center>
+                    <br>
+                <center>
+                    <p>Graphiques 3D : </p>
+                    <p>Les graphiques 3D sont également incontournables en Data Science et mathématiques. Évidemment, leur but premier est d’étendre les graphiques 2D (comme ceux du dessus) pour visualiser les relations entre 3 variables à la fois.</p>
+                </center>
+                <center><img style="width: 50%; height:50%" src="../images/graphique_3D_image.png"></center>
+                <br>
+                <center>
+                    <p>Les histogrammes : </p>
+                    <p>L’histogramme est le graphique idéal pour visualiser la répartition de vos données selon une ou plusieurs variables quantitatives. En statistiques, c’est ce qu’on appelle visualiser une distribution.</p>
+                </center>
+                <center><img style="width: 50%; height:50%" src="../images/histogrammes_exemple_image.png"></center>
+                <br>
+                <center>
+                    <p>Contour Plots : </p>
+                    <p>Les contour plots sont des graphiques utiles et simples à interpréter. Ils représentent une vue du dessus des graphiques 3D. Semblables à une carte de relief, où les différents niveaux d’altitude sont représentés par des contours, on les utilise pour visualiser des fonctions mathématiques et trouver à l’œil un minimum ou maximum.</p>
+                </center>
+                <center><img style="width: 50%; height:50%" src="../images/contour_plot_exemple.png"></center>
+                <br>
+                <center>
+                    <p>Imshow</p>
+                    <p>Pour finir, les graphiques imshow () de Matplotlib comptent parmi les plus utiles de toute la data science. Il s’agit tout simplement d’afficher une matrice 2D de la même façon que les pixels d’une image 2D.</p>
+                </center>
+                <center><img style="width: 50%; height:50%" src="../images/imshow_exemple.png"></center>
+                <br>
+                <hr>
+                <br>
+                <center><h3>NOTRE CHOIX</h3></center>
+                <br>
+                <center><img style="width: 50%; height:50%" src="../images/matplotlib.png"></center>
+                <br>
+                <center>
+                    <p>Une fois que nous avons pris connaissance de toutes ces possibilités, nous avons sélectionné les outils et les types de graphiques qui correspondaient le mieux à nos attentes.
+En effet, nous avons choisi Matplotlib, la librairie python qui comme vu précédemment, apporte un large choix de graphique.
+De plus nous utilisons pour alimenter la base de données et les stocker, un fichier CSV. Nous avons remarqué que Matplotlib était une des plus simple et compatible des librairies pour notre situation.</p>
+                </center>
+
               <hr>
+              <br>
               <center><h2>Conclusion</h2></center>
               <br>
               <center><p>
