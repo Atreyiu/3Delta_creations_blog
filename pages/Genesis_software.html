@@ -356,6 +356,58 @@ Par chance, nous n’avons pas eu de blocages persistant pour nous forcer à cha
                 <center><h3>Structuration et conception</h3></center>
 
                 <center><img style="width: 50%; height:50%" src="../images/notice_image.png"></center>
+                <center><p>Voici maintenant la partie la plus intéressante à visionner, La structuration et la conception brute du projet.
+Cette partie va réunir absolument toute les techniques, outils, logiciels, code, Dataviz et bien encore, c’est le cœur même du projet.
+Cette partie servira non seulement à savoir les étapes et les outils utiliser, mais aussi à comprendre le fonctionnement de l’application.</p></center>
+                <br>
+                <center>
+                    <p>Les Bases de données</p>
+
+                    <p>Voici maintenant la partie la plus intéressante à visionner, La structuration et la conception brute du projet.
+Cette partie va réunir absolument toute les techniques, outils, logiciels, code, Dataviz et bien encore, c’est le cœur même du projet.
+Cette partie servira non seulement à savoir les étapes et les outils utiliser, mais aussi à comprendre le fonctionnement de l’application.</p>
+                </center>
+                <center><img style="width: 50%; height:50%" src="../images/MCD_exemple.png"></center>
+             <br>
+                <center>
+                    <p>
+Nous avons donc deux tables, l’une correspond aux entrées que l’utilisateur effectue pour enregistrer son profil, l’autre aux données d’une partie.</p>
+                </center>
+                <center>
+                    <p>Pré-traitement de la donnée :</p>
+                    <p>Une fois le MCD terminé nous avons une vision globale de notre base de données. Cependant, il nous rest à faire un pré-traitement de la donnée : nous devons donc alors assigner à chaque colonne un Data-type qui lui correspond. Ex : Début_de_game (TIME (6)), Pseudo (VARCHAR (30))
+Il ne nous reste plus qu’à créer la base de données dans Workbench et de lui attribuer une table et des colonnes.
+Pour cela nous utilisons la Query SQL « CREATE DATABASE Performances_LoL » Nous créons la table et les colonnes grâce au code suivant :</p>
+                </center>
+                <center><img style="width: 50%; height:50%" src="../images/exemple_SQL_1.png"></center>
+                <br>
+                <center>
+                    <p>Liaison entre Python et SQL :</p>
+                    <p>Un problème majeur se pose : comment lier les langages Python et SQL ? En effet, nous voulons alimenter une base de données SQL dans le logiciel Workbench à partir d’une application codée en Python. Est-ce possible ? Oui, grâce à une librairie nommée « MySQL-connector-python »</p>
+                </center>
+                <center><img style="width: 50%; height:50%" src="../images/connexion_workbench.png"></center>
+                <br>
+                <center>
+                    <p>Nous importons alors cette librairie qui nous permet de nous connecter directement à notre base SQL à l’aide de nos identifiants et password de Workbench.
+Ainsi, nous pouvons effectuer des Query SQL dans python tel que « SELECT » « INSERT » ou encore « CREATE TABLE »</p>
+                </center>
+                <center><img style="width: 50%; height:50%" src="../images/insert_table.png"></center>
+                <br>
+                <center>
+                    <p>Cette Query nous permet de créer les colonnes dans Workbench.</p>
+                </center>
+                <center><img style="width: 50%; height:50%" src="../images/query_workbench.png"></center>
+                <br>
+                <center>
+                    <p>Input Base de données SQL :</p>
+                    <p>Nous avons ensuite besoin de coder une fonction permettant de rentrer les données par un Input dans l’application afin de les stocker dans MYSQL Workbench.</p>
+                </center>
+                <center><img style="width: 50%; height:50%" src="../images/user_input.png"></center>
+             <br>
+                <center><p>
+Une fois la possibilité de faire des inputs réglés, nous devons lier cette fonction avec la base de données SQL pour que celle-ci puisse se remplir à chaque entrée.</p></center>
+
+                <center><img style="width: 50%; height:50%" src="../images/variable_input.png"></center>
 
               <hr>
               <br>
