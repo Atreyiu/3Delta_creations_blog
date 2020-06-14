@@ -143,6 +143,131 @@ En effet votre projet est initialement crée par un ou plusieurs ordinateurs qui
                                 git checkout "nom_de_la_branche"
                             </code></pre>
 
+                            <p>Git Remote : </p>
+                            <p>La commande git remote permet à un utilisateur de se connecter à un dépôt distant. La commande suivante répertorie les dépôts distants actuellement configurés :</p>
+                            <pre><code>
+                                git remote -v
+                            </code></pre>
+
+                            <p>Mais aussi : </p>
+                            <p>Cette commande permet à l’utilisateur de connecter le dépôt local à un serveur distant : </p>
+                            <pre><code>
+                                git remote add origin "url_du_repo"
+                            </code></pre>
+
+                            <p>Git branch : </p>
+                            <p>La commande git branch peut être utilisée pour répertorier, créer ou supprimer des branches. Pour répertorier toutes les branches présentes dans le dépôt, utilisez :</p>
+                            <pre><code>
+                                git branch
+                            </code></pre>
+
+                            <p>Mais aussi : </p>
+                            <p>Pour supprimer une branche : </p>
+                            <pre><code>
+                                git branch -d "nom_de_la_branche"
+                            </code></pre>
+
+                            <p>Git Pull : </p>
+                            <p>Pour fusionner toutes les modifications présentes sur le dépôt distant dans le répertoire de travail local, la commande pull est utilisée. Usage :</p>
+                            <pre><code>
+                                git pull
+                            </code></pre>
+
+                            <p>Git Merge : </p>
+                            <p>La commande git merge est utilisée pour fusionner une branche dans la branche active. Usage :</p>
+                            <pre><code>
+                                git merge "nom_de_la_branche"
+                            </code></pre>
+
+                            <p>Git diff : </p>
+                            <p>La commande git diff permet de lister les conflits. Pour visualiser les conflits d’un fichier, utilisez :</p>
+                            <pre><code>
+                                git diff --base "nom_du_fichier"
+                            </code></pre>
+
+                            <p>Mais aussi</p>
+                            <p>La commande suivante est utilisée pour afficher les conflits entre les branches à fusionner avant de les fusionner:</p>
+                            <pre><code>
+                                git diff "branche-source" "branche-cible"
+                            </code></pre>
+
+                            <p>Mais aussi : </p>
+                            <p>Pour simplement énumérer tous les conflits actuels, utilisez :</p>
+                            <pre><code>
+                                git diff
+                            </code></pre>
+
+                            <p>Git tag : </p>
+                            <p>Le marquage est utilisé pour marquer des commits spécifiques avec des poignées simples. Un exemple peut être :</p>
+                            <pre><code>
+                                git tag 1.1.0 "insert-commitID-here"
+                            </code></pre>
+
+                            <p>Git Log : </p>
+                            <p>L’ exécution de la commande git log génère le log d’une branche. Un exemple de sortie :</p>
+                            <pre><code>
+                                commit : 15f4b6c44b3c8344caasdac9e4be12346e21sadw
+                                Autor : Jonathan Michel "jonathanremymichel@laposte.net"
+                                Date : Sun Jun 14 23:44:23 2020 -0600
+                            </code></pre>
+
+                            <p>Git Reset : </p>
+                            <p>Pour réinitialiser l’index et le répertoire de travail à l’état du dernier commit, la commande git reset est utilisée :</p>
+                            <pre><code>
+                                git reset --hard HEAD
+                            </code></pre>
+
+                            <p>Git rm : </p>
+                            <p>Git rm peut être utilisé pour supprimer des fichiers de l’index et du répertoire de travail. Usage :</p>
+                            <pre><code>
+                                git rm "nom_du_fichier.txt"
+                            </code></pre>
+
+                            <p>Git stash : </p>
+                            <p>L’une des moins connues, git stash aide à enregistrer les changements qui ne doivent pas être commit immédiatement. C’est un commit temporaire. Usage :</p>
+                            <pre><code>
+                                git stash
+                            </code></pre>
+
+                            <p>Git Show : </p>
+                            <p>Pour afficher des informations sur tout fichier git, utilisez la commande git show . Par exemple :</p>
+                            <pre><code>
+                                git show
+                            </code></pre>
+
+                            <p>Git Fetch : </p>
+                            <p>Git fetch permet à un utilisateur d’extraire tous les fichiers du dépôt distant qui ne sont pas actuellement dans le répertoire de travail local. Exemple d’utilisation :</p>
+                            <pre><code>
+                                git fetch origin
+                            </code></pre>
+
+                            <p>Git is-tree : </p>
+                            <p>Pour afficher un fichier arborescent avec le nom et le mode de chaque élément, et la valeur SHA-1 du blob, utilisez la commande git ls-tree . Par exemple :</p>
+                            <pre><code>
+                                git ls-tree HEAD
+                            </code></pre>
+
+                            <p>Git cat-file : </p>
+                            <p>À l’aide de la valeur SHA-1, affichez le type d’un fichier à l’aide de la commande git cat-file . Par exemple :</p>
+                            <pre><code>
+                                git cat-file -p d67046b4b4aece5915caf5c68d12f560a9fe3e4
+                            </code></pre>
+
+                            <p>Git grep : </p>
+                            <p>Git grep permet à un utilisateur de rechercher dans les arbres de contenu des expressions et / ou des mots. Par exemple, pour rechercher www.hostinger.com dans tous les fichiers, utilisez :</p>
+                            <pre><code>
+                                git grep "www.hostinger.com"
+                            </code></pre>
+
+                            <p>Gitk : </p>
+                            <p>Gitk est l’interface graphique du dépôt local. Vous pouvez l’appeler en exécutant :</p>
+                            <pre><code>
+                                gitk
+                            </code></pre>
+
+                            <p>Git instaweb : </p>
+                            <p></p>
+
                         </div>
 
 
