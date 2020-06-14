@@ -266,7 +266,40 @@ En effet votre projet est initialement crée par un ou plusieurs ordinateurs qui
                             </code></pre>
 
                             <p>Git instaweb : </p>
-                            <p></p>
+                            <p>Avec la commande git instaweb , un serveur Web peut être exécuté par interface avec le dépôt local. Qui redirige directement vers un serveur web. Par exemple :</p>
+                            <pre><code>
+                                git instaweb -httpd=webrick
+                            </code></pre>
+
+                            <p>Git gc : </p>
+                            <p>Pour optimiser le dépôt en supprimant les fichiers inutiles et les optimiser, utilisez :</p>
+                            <pre><code>
+                                git gc
+                            </code></pre>
+
+                            <p>Git Archive : </p>
+                            <p>La commande git archive permet à un utilisateur de créer un fichier zip ou tar contenant les composants d’un arbre du dépôt. Par exemple :</p>
+                            <pre><code>
+                                git archive --format:tar master
+                            </code></pre>
+
+                            <p>Git prune : </p>
+                            <p>Via la commande git prune , les fichiers qui n’ont pas de pointeurs entrants seront supprimés. Usage :</p>
+                            <pre><code>
+                                git prune
+                            </code></pre>
+
+                            <p>Git fsck : </p>
+                            <p>Pour effectuer une vérification d’intégrité du système de fichiers git, utilisez la commande git fsck . Tous les fichiers corrompus seront identifiés :</p>
+                            <pre><code>
+                                git fsck
+                            </code></pre>
+
+                            <p>Git Rebase : </p>
+                            <p>La commande git rebase est utilisée pour la réapplication des commits sur une autre branche. Par exemple :</p>
+                            <pre><code>
+                                git rebase master
+                            </code></pre>
 
                         </div>
 
