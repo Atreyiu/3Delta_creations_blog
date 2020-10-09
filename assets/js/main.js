@@ -312,4 +312,7 @@ var settings = {
 
 	});
 
+
 })(jQuery);
+
+
