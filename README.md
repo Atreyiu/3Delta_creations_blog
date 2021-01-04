@@ -1,4 +1,1 @@
-# Portfolio_Team_3Delta
-
-# Blog
-# Blog
+Prototype fonctionel du blog de la team 3Delta_creations.
